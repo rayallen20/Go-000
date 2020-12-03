@@ -6,7 +6,7 @@
 
 3层架构下的日志打印问题:
 
-![Image text](https://github.com/rayallen20/Go-000/blob/main/Week02/img/%E4%B8%89%E5%B1%82%E6%9E%B6%E6%9E%84%E4%B8%8B%E7%9A%84%E6%97%A5%E5%BF%97%E6%89%93%E5%8D%B0%E9%97%AE%E9%A2%98.jpg)
+![Image text](./img/1.jpg)
 
 **error的核心:wrap error,把error包装起来,像一个堆栈一样往上层抛,最后只在1个地方记录日志,这件事是本节课程的核心**
 
